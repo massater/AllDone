@@ -11,6 +11,9 @@
 		F57B7C77291474FC00FAE8C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C76291474FC00FAE8C1 /* ContentView.swift */; };
 		F57B7C79291474FD00FAE8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57B7C78291474FD00FAE8C1 /* Assets.xcassets */; };
 		F57B7C7C291474FD00FAE8C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57B7C7B291474FD00FAE8C1 /* Preview Assets.xcassets */; };
+		F57B7C862914B77000FAE8C1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C852914B77000FAE8C1 /* LoginView.swift */; };
+		F57B7C8A2914B80400FAE8C1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C892914B80400FAE8C1 /* SignUpView.swift */; };
+		F57B7C8C2914B87600FAE8C1 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C8B2914B87600FAE8C1 /* BackgroundGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		F57B7C76291474FC00FAE8C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F57B7C78291474FD00FAE8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F57B7C7B291474FD00FAE8C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F57B7C852914B77000FAE8C1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F57B7C892914B80400FAE8C1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		F57B7C8B2914B87600FAE8C1 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		F57B7C73291474FC00FAE8C1 /* AllDone */ = {
 			isa = PBXGroup;
 			children = (
+				F57B7C832914B70100FAE8C1 /* Models */,
+				F57B7C822914B6F700FAE8C1 /* Views */,
+				F57B7C842914B70900FAE8C1 /* ViewModels */,
 				F57B7C74291474FC00FAE8C1 /* AllDoneApp.swift */,
 				F57B7C76291474FC00FAE8C1 /* ContentView.swift */,
 				F57B7C78291474FD00FAE8C1 /* Assets.xcassets */,
@@ -65,6 +74,46 @@
 				F57B7C7B291474FD00FAE8C1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F57B7C822914B6F700FAE8C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F57B7C882914B7E000FAE8C1 /* Utils */,
+				F57B7C872914B7CD00FAE8C1 /* Authentication */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F57B7C832914B70100FAE8C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F57B7C842914B70900FAE8C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F57B7C872914B7CD00FAE8C1 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F57B7C852914B77000FAE8C1 /* LoginView.swift */,
+				F57B7C892914B80400FAE8C1 /* SignUpView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F57B7C882914B7E000FAE8C1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F57B7C8B2914B87600FAE8C1 /* BackgroundGradientView.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57B7C8A2914B80400FAE8C1 /* SignUpView.swift in Sources */,
+				F57B7C862914B77000FAE8C1 /* LoginView.swift in Sources */,
 				F57B7C77291474FC00FAE8C1 /* ContentView.swift in Sources */,
+				F57B7C8C2914B87600FAE8C1 /* BackgroundGradientView.swift in Sources */,
 				F57B7C75291474FC00FAE8C1 /* AllDoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AllDone/Preview Content\"";
-				DEVELOPMENT_TEAM = UEJE7D44VM;
+				DEVELOPMENT_TEAM = T7AM826QVT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -296,7 +348,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AllDone/Preview Content\"";
-				DEVELOPMENT_TEAM = UEJE7D44VM;
+				DEVELOPMENT_TEAM = T7AM826QVT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
