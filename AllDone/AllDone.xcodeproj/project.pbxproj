@@ -14,6 +14,7 @@
 		F57B7C862914B77000FAE8C1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C852914B77000FAE8C1 /* LoginView.swift */; };
 		F57B7C8A2914B80400FAE8C1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C892914B80400FAE8C1 /* SignUpView.swift */; };
 		F57B7C8C2914B87600FAE8C1 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C8B2914B87600FAE8C1 /* BackgroundGradientView.swift */; };
+		F57B7C8E2914BB8800FAE8C1 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C8D2914BB8800FAE8C1 /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F57B7C852914B77000FAE8C1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F57B7C892914B80400FAE8C1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		F57B7C8B2914B87600FAE8C1 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
+		F57B7C8D2914BB8800FAE8C1 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				F57B7C8B2914B87600FAE8C1 /* BackgroundGradientView.swift */,
+				F57B7C8D2914BB8800FAE8C1 /* LogoView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F57B7C8A2914B80400FAE8C1 /* SignUpView.swift in Sources */,
+				F57B7C8E2914BB8800FAE8C1 /* LogoView.swift in Sources */,
 				F57B7C862914B77000FAE8C1 /* LoginView.swift in Sources */,
 				F57B7C77291474FC00FAE8C1 /* ContentView.swift in Sources */,
 				F57B7C8C2914B87600FAE8C1 /* BackgroundGradientView.swift in Sources */,

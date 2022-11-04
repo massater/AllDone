@@ -9,7 +9,13 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        BackgroundGradientView()
+        ZStack {
+            BackgroundGradientView()
+            
+            VStack {
+                LogoView()
+            }
+        }
     }
 }
 
