@@ -19,6 +19,7 @@
 		F57B7C932914C81A00FAE8C1 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C922914C81A00FAE8C1 /* EmailTextField.swift */; };
 		F57B7C95291563B600FAE8C1 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C94291563B600FAE8C1 /* CustomSecureField.swift */; };
 		F57B7C972915651B00FAE8C1 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C962915651B00FAE8C1 /* PasswordSecureField.swift */; };
+		F57B7C9929156BB400FAE8C1 /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C9829156BB400FAE8C1 /* AuthenticateButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F57B7C922914C81A00FAE8C1 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		F57B7C94291563B600FAE8C1 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		F57B7C962915651B00FAE8C1 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
+		F57B7C9829156BB400FAE8C1 /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				F57B7C852914B77000FAE8C1 /* LoginView.swift */,
+				F57B7C9829156BB400FAE8C1 /* AuthenticateButtonView.swift */,
 				F57B7C892914B80400FAE8C1 /* SignUpView.swift */,
 			);
 			path = Authentication;
@@ -215,6 +218,7 @@
 				F57B7C8E2914BB8800FAE8C1 /* LogoView.swift in Sources */,
 				F57B7C972915651B00FAE8C1 /* PasswordSecureField.swift in Sources */,
 				F57B7C862914B77000FAE8C1 /* LoginView.swift in Sources */,
+				F57B7C9929156BB400FAE8C1 /* AuthenticateButtonView.swift in Sources */,
 				F57B7C77291474FC00FAE8C1 /* ContentView.swift in Sources */,
 				F57B7C8C2914B87600FAE8C1 /* BackgroundGradientView.swift in Sources */,
 				F57B7C95291563B600FAE8C1 /* CustomSecureField.swift in Sources */,
