@@ -12,6 +12,8 @@ struct LoginView: View {
     @State var email: String = ""
     @State var password: String = ""
     
+    @EnvironmentObject var viewModel: AuthViewModel
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -42,6 +44,7 @@ struct LoginView: View {
                     
                     Button {
                         // Sign In Action
+                        viewModel.login(withEmail: email, password: password)
                     } label: {
                         AuthenticateButtonView(text: "Sign In")
                             .padding()
