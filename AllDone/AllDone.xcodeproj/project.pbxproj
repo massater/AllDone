@@ -40,6 +40,8 @@
 		F57B7CC02915BDEF00FAE8C1 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7CBF2915BDEF00FAE8C1 /* DashboardView.swift */; };
 		F57B7CC22915F0B600FAE8C1 /* ToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7CC12915F0B600FAE8C1 /* ToDoViewModel.swift */; };
 		F5B2FA0629172BC80044D948 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2FA0529172BC80044D948 /* SearchBarView.swift */; };
+		F5B2FA08291803860044D948 /* ToDoButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2FA07291803860044D948 /* ToDoButtonStackView.swift */; };
+		F5B2FA0A291808FB0044D948 /* AddToDoLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2FA09291808FB0044D948 /* AddToDoLogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		F57B7CBF2915BDEF00FAE8C1 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		F57B7CC12915F0B600FAE8C1 /* ToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewModel.swift; sourceTree = "<group>"; };
 		F5B2FA0529172BC80044D948 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		F5B2FA07291803860044D948 /* ToDoButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoButtonStackView.swift; sourceTree = "<group>"; };
+		F5B2FA09291808FB0044D948 /* AddToDoLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoLogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,8 @@
 				F57B7C8B2914B87600FAE8C1 /* BackgroundGradientView.swift */,
 				F57B7C8D2914BB8800FAE8C1 /* LogoView.swift */,
 				F5B2FA0529172BC80044D948 /* SearchBarView.swift */,
+				F5B2FA07291803860044D948 /* ToDoButtonStackView.swift */,
+				F5B2FA09291808FB0044D948 /* AddToDoLogView.swift */,
 			);
 			path = UtilityViews;
 			sourceTree = "<group>";
@@ -305,11 +311,13 @@
 				F57B7C8E2914BB8800FAE8C1 /* LogoView.swift in Sources */,
 				F57B7CC02915BDEF00FAE8C1 /* DashboardView.swift in Sources */,
 				F5B2FA0629172BC80044D948 /* SearchBarView.swift in Sources */,
+				F5B2FA08291803860044D948 /* ToDoButtonStackView.swift in Sources */,
 				F57B7CBE2915AF5900FAE8C1 /* AuthViewModel.swift in Sources */,
 				F57B7CB52915A84600FAE8C1 /* ToDo.swift in Sources */,
 				F57B7C972915651B00FAE8C1 /* PasswordSecureField.swift in Sources */,
 				F57B7C862914B77000FAE8C1 /* LoginView.swift in Sources */,
 				F57B7CB12915A6A700FAE8C1 /* Constants.swift in Sources */,
+				F5B2FA0A291808FB0044D948 /* AddToDoLogView.swift in Sources */,
 				F57B7C9929156BB400FAE8C1 /* AuthenticateButtonView.swift in Sources */,
 				F57B7C77291474FC00FAE8C1 /* ContentView.swift in Sources */,
 				F57B7C8C2914B87600FAE8C1 /* BackgroundGradientView.swift in Sources */,

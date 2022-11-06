@@ -39,6 +39,14 @@ struct DashboardView: View {
                 SearchBarView(searchText: $searchText)
                     .padding()
                 
+                ToDoButtonStackView(viewModel: viewModel)
+                    .padding(.horizontal)
+                    .padding(.bottom)
+                
+                if viewModel.todosFiltered.isEmpty {
+                    AddToDoLogView()
+                        .padding(.top)
+                }
             } // end of VStack
             
         } // end of ZStack
