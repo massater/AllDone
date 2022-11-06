@@ -39,6 +39,7 @@
 		F57B7CBE2915AF5900FAE8C1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7CBD2915AF5900FAE8C1 /* AuthViewModel.swift */; };
 		F57B7CC02915BDEF00FAE8C1 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7CBF2915BDEF00FAE8C1 /* DashboardView.swift */; };
 		F57B7CC22915F0B600FAE8C1 /* ToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7CC12915F0B600FAE8C1 /* ToDoViewModel.swift */; };
+		F5B2FA0629172BC80044D948 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2FA0529172BC80044D948 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		F57B7CBD2915AF5900FAE8C1 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		F57B7CBF2915BDEF00FAE8C1 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		F57B7CC12915F0B600FAE8C1 /* ToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewModel.swift; sourceTree = "<group>"; };
+		F5B2FA0529172BC80044D948 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				F57B7C912914C7EE00FAE8C1 /* TextFields */,
 				F57B7C8B2914B87600FAE8C1 /* BackgroundGradientView.swift */,
 				F57B7C8D2914BB8800FAE8C1 /* LogoView.swift */,
+				F5B2FA0529172BC80044D948 /* SearchBarView.swift */,
 			);
 			path = UtilityViews;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				F57B7C8A2914B80400FAE8C1 /* SignUpView.swift in Sources */,
 				F57B7C8E2914BB8800FAE8C1 /* LogoView.swift in Sources */,
 				F57B7CC02915BDEF00FAE8C1 /* DashboardView.swift in Sources */,
+				F5B2FA0629172BC80044D948 /* SearchBarView.swift in Sources */,
 				F57B7CBE2915AF5900FAE8C1 /* AuthViewModel.swift in Sources */,
 				F57B7CB52915A84600FAE8C1 /* ToDo.swift in Sources */,
 				F57B7C972915651B00FAE8C1 /* PasswordSecureField.swift in Sources */,

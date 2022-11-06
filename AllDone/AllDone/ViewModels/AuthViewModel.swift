@@ -29,10 +29,10 @@ class AuthViewModel: ObservableObject {
         
         COLLECTION_USERS.document(uid).getDocument { snapshot, error in
             if error != nil { print("❌ Error getDocument user"); return }
-            print("SnapShot: \(snapshot)")
+            print("SnapShot: \(String(describing: snapshot))")
 //            guard let user = try? snapshot?.data(as: AppUser.self) else { print("❌ Error getting AppUse"); return}
 
-            do{
+            //do{
                 if let data = snapshot?.data() {
                     let uid = data["uid"] as? String ?? ""
                     let firstName = data["firstName"] as? String ?? ""
@@ -41,12 +41,12 @@ class AuthViewModel: ObservableObject {
                     print("Data: \(data)")
                     self.currentUser = AppUser(uid: uid, fristName: firstName, lastName: lastName, email: email)
                 }else {
-                    print("No Snapshot Data: \(snapshot?.data())")
+                    print("No Snapshot Data: \(String(describing: snapshot?.data()))")
                     self.userSession = nil
                 }
-            } catch {
-                print("❌ Error getting AppUser: ", error);
-            }
+            //} catch {
+            //    print("❌ Error getting AppUser: ", error);
+            //}
         }
     }
     
@@ -82,7 +82,7 @@ class AuthViewModel: ObservableObject {
             COLLECTION_USERS.document(user.uid).setData(data) { _ in
                 print("🏗 Successfully uploaded data")
                 self.userSession = user
-                print(self.userSession, "::", user)
+                print(self.userSession as Any, "::", user)
                 self.fetchUser()
             }
             print("Done")

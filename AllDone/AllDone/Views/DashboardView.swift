@@ -10,18 +10,38 @@ import SwiftUI
 struct DashboardView: View {
     
     let user: AppUser
-    
-    
+    @State var searchText: String = ""
+    @ObservedObject var viewModel = ToDoViewModel()
     
     var body: some View {
-        VStack{
-            Text("DashboardView")
-            Button {
-                AuthViewModel.shared.signOut()
-            } label: {
-                Text("Log Out")
-            }
-        }
+        ZStack {
+            VStack{
+                HStack {
+                    Spacer()
+                    Text("- AllDone -")
+                        .font(.system(size: 24))
+                        .fontWeight(.semibold)
+                    Spacer()
+                } // end of HStack
+                .overlay {
+                    HStack {
+                        Spacer()
+                        Button {
+                            AuthViewModel.shared.signOut()
+                        } label: {
+                            Text("Logout")
+                                .foregroundColor(Color(.systemGray))
+                        }
+                        .padding(.trailing)
+                    }  // end of HStack
+                } // end of Overlay
+                
+                SearchBarView(searchText: $searchText)
+                    .padding()
+                
+            } // end of VStack
+            
+        } // end of ZStack
     }
 }
 
