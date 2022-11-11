@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F55D227A291E96BC0069EDF3 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D2279291E96BC0069EDF3 /* ToDoView.swift */; };
+		F55D227C291E9C9B0069EDF3 /* BlackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D227B291E9C9B0069EDF3 /* BlackView.swift */; };
+		F55D227E291E9E900069EDF3 /* CreateTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D227D291E9E900069EDF3 /* CreateTodoView.swift */; };
+		F55D2280291EA1B90069EDF3 /* TodoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D227F291EA1B90069EDF3 /* TodoTextField.swift */; };
+		F55D2282291EA3780069EDF3 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D2281291EA3780069EDF3 /* CustomTextEditor.swift */; };
 		F57B7C75291474FC00FAE8C1 /* AllDoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C74291474FC00FAE8C1 /* AllDoneApp.swift */; };
 		F57B7C77291474FC00FAE8C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B7C76291474FC00FAE8C1 /* ContentView.swift */; };
 		F57B7C79291474FD00FAE8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57B7C78291474FD00FAE8C1 /* Assets.xcassets */; };
@@ -45,6 +50,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F55D2279291E96BC0069EDF3 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		F55D227B291E9C9B0069EDF3 /* BlackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackView.swift; sourceTree = "<group>"; };
+		F55D227D291E9E900069EDF3 /* CreateTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodoView.swift; sourceTree = "<group>"; };
+		F55D227F291EA1B90069EDF3 /* TodoTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTextField.swift; sourceTree = "<group>"; };
+		F55D2281291EA3780069EDF3 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
 		F57B7C71291474FC00FAE8C1 /* AllDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57B7C74291474FC00FAE8C1 /* AllDoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDoneApp.swift; sourceTree = "<group>"; };
 		F57B7C76291474FC00FAE8C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -141,6 +151,8 @@
 				F57B7C882914B7E000FAE8C1 /* UtilityViews */,
 				F57B7C872914B7CD00FAE8C1 /* Authentication */,
 				F57B7CBF2915BDEF00FAE8C1 /* DashboardView.swift */,
+				F55D2279291E96BC0069EDF3 /* ToDoView.swift */,
+				F55D227D291E9E900069EDF3 /* CreateTodoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +196,8 @@
 				F5B2FA0529172BC80044D948 /* SearchBarView.swift */,
 				F5B2FA07291803860044D948 /* ToDoButtonStackView.swift */,
 				F5B2FA09291808FB0044D948 /* AddToDoLogView.swift */,
+				F55D227B291E9C9B0069EDF3 /* BlackView.swift */,
+				F55D2281291EA3780069EDF3 /* CustomTextEditor.swift */,
 			);
 			path = UtilityViews;
 			sourceTree = "<group>";
@@ -195,6 +209,7 @@
 				F57B7C94291563B600FAE8C1 /* CustomSecureField.swift */,
 				F57B7C922914C81A00FAE8C1 /* EmailTextField.swift */,
 				F57B7C962915651B00FAE8C1 /* PasswordSecureField.swift */,
+				F55D227F291EA1B90069EDF3 /* TodoTextField.swift */,
 				F57B7C9A291571BC00FAE8C1 /* UserTextField.swift */,
 			);
 			path = TextFields;
@@ -304,24 +319,29 @@
 				F57B7CB32915A73000FAE8C1 /* AppUser.swift in Sources */,
 				F57B7C932914C81A00FAE8C1 /* EmailTextField.swift in Sources */,
 				F57B7C902914C52C00FAE8C1 /* CustomTextField.swift in Sources */,
+				F55D227C291E9C9B0069EDF3 /* BlackView.swift in Sources */,
 				F57B7CBC2915ABF000FAE8C1 /* MockData.swift in Sources */,
 				F57B7C9B291571BC00FAE8C1 /* UserTextField.swift in Sources */,
 				F57B7CB72915A93500FAE8C1 /* SelectedButton.swift in Sources */,
 				F57B7C8A2914B80400FAE8C1 /* SignUpView.swift in Sources */,
 				F57B7C8E2914BB8800FAE8C1 /* LogoView.swift in Sources */,
 				F57B7CC02915BDEF00FAE8C1 /* DashboardView.swift in Sources */,
+				F55D227A291E96BC0069EDF3 /* ToDoView.swift in Sources */,
 				F5B2FA0629172BC80044D948 /* SearchBarView.swift in Sources */,
 				F5B2FA08291803860044D948 /* ToDoButtonStackView.swift in Sources */,
 				F57B7CBE2915AF5900FAE8C1 /* AuthViewModel.swift in Sources */,
 				F57B7CB52915A84600FAE8C1 /* ToDo.swift in Sources */,
+				F55D2282291EA3780069EDF3 /* CustomTextEditor.swift in Sources */,
 				F57B7C972915651B00FAE8C1 /* PasswordSecureField.swift in Sources */,
 				F57B7C862914B77000FAE8C1 /* LoginView.swift in Sources */,
 				F57B7CB12915A6A700FAE8C1 /* Constants.swift in Sources */,
 				F5B2FA0A291808FB0044D948 /* AddToDoLogView.swift in Sources */,
 				F57B7C9929156BB400FAE8C1 /* AuthenticateButtonView.swift in Sources */,
 				F57B7C77291474FC00FAE8C1 /* ContentView.swift in Sources */,
+				F55D227E291E9E900069EDF3 /* CreateTodoView.swift in Sources */,
 				F57B7C8C2914B87600FAE8C1 /* BackgroundGradientView.swift in Sources */,
 				F57B7C95291563B600FAE8C1 /* CustomSecureField.swift in Sources */,
+				F55D2280291EA1B90069EDF3 /* TodoTextField.swift in Sources */,
 				F57B7C75291474FC00FAE8C1 /* AllDoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
